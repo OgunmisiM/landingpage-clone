@@ -44,7 +44,7 @@ li a {
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .text {
@@ -142,10 +142,19 @@ li a {
     }
     @media screen and (max-width: 450px) {
         .flex-container {
+            margin: 0 auto;
             width: 80%;
         }
         .iframe {
+            margin: 0 auto;
             width: 80%;
+        }
+        .info {
+            margin: 0 auto;
+            width: 80%;
+        }
+        .nav {
+            width: 100%;
         }
     }
 }
