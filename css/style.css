@@ -143,18 +143,22 @@ li a {
     @media screen and (max-width: 450px) {
         .flex-container {
             margin: 0 auto;
-            width: 80%;
+            width: 100%;
         }
         .iframe {
             margin: 0 auto;
-            width: 80%;
+            width: 100%;
         }
         .info {
             margin: 0 auto;
-            width: 80%;
+            width: 100%;
         }
         .nav {
             width: 100%;
+        }
+        .footer {
+            width: 100%;
+            margin: 0 auto;
         }
     }
 }
