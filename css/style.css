@@ -1,164 +1,167 @@
 body {
-    margin: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d0e8ff;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 form {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    list-style: none;
-    margin: 10px 0;
-    padding: 0;
-    height: 20px;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  height: 20px;
 }
 
 #header-img {
-    width: 200px;
-    color: honeydew;
+  width: 200px;
+  color: honeydew;
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 li a {
-    display: block;
-    text-align: center;
-    color: #003566;
+  display: block;
+  text-align: center;
+  color: #003566;
 }
 
 .nav {
-    padding: 5px;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  padding: 5px;
+  background-color: #d0e8ff;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  margin: 0 10px;
 }
 
 .nav-link {
-    padding: 0 10px;
+  padding: 0 10px;
+  margin-left: 10px;
 }
 
 .text {
-    text-align: center;
-    margin-top: 70px;
+  text-align: center;
+  margin-top: 70px;
 }
 
 .image {
-    width: 60px;
-    /* float: left; */
-    /* clear: left; */
-    margin: 5px 50px 0px 10px;
+  width: 60px;
+  /* float: left; */
+  /* clear: left; */
+  margin: 5px 50px 0px 10px;
 }
 
 .info {
-    width: 60%;
-    margin: 30px auto 20px auto;
+  width: 60%;
+  margin: 30px auto 20px auto;
 }
 
 #email {
-    padding: 10px;
-    width: 50%;
-    outline: none;
+  padding: 10px;
+  width: 50%;
+  outline: none;
 }
 
 #submit {
-    background-color: #003566;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    color: honeydew;
+  background-color: #003566;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: honeydew;
 }
 
 #video {
-    width: 420px;
-    height: 315px;
+  width: 420px;
+  height: 315px;
 }
 
 .iframe {
-    margin: 30px 0;
-    text-align: center;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .card {
-    width: 80%;
-    height: 22rem;
-    border: black 1px solid;
-    margin: 20px auto;
-    text-align: center;
+  width: 80%;
+  height: 22rem;
+  border: black 1px solid;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .trumpet-name {
-    background-color: #003566;
-    margin: 0;
-    padding: 10px;
-    color: honeydew;
+  background-color: #003566;
+  margin: 0;
+  padding: 10px;
+  color: honeydew;
 }
 
 .btn-select {
-    background-color: #003566;
-    padding: 10px;
-    border-radius: 5px;
-    color: honeydew;
+  background-color: #003566;
+  padding: 10px;
+  border-radius: 5px;
+  color: honeydew;
 }
 
 .footer {
-    background-color: #fff;
-    text-align: center;
-    padding: 10px 0px 0px;
+  background-color: #d0e8ff;
+  text-align: center;
+  padding: 10px 0px 0px;
+  margin-bottom: 20px;
 }
 
 .text-foot {
-    margin: 0px 10px 5px 0;
-    padding: 5px;
-    color: #003566;
+  margin: 0px 10px 5px 0;
+  padding: 5px;
+  color: #003566;
 }
 
 .text-foot:hover {
-    color: black;
+  color: black;
 }
 
 .copyright {
-    margin: 10px 0px 0px;
-    padding: 10px 0px;
-    color: #003566;
+  margin: 10px 0px 0px;
+  padding: 10px 0px;
+  color: #003566;
 }
 
 @media screen and (min-width: 450px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 30%;
+  }
+  @media screen and (max-width: 450px) {
     .flex-container {
-        display: flex;
-        flex-wrap: wrap;
+      margin: 0 auto;
+      width: 100%;
     }
-    .card {
-        width: 30%;
+    .iframe {
+      margin: 0 auto;
+      width: 100%;
     }
-    @media screen and (max-width: 450px) {
-        .flex-container {
-            margin: 0 auto;
-            width: 100%;
-        }
-        .iframe {
-            margin: 0 auto;
-            width: 100%;
-        }
-        .info {
-            margin: 0 auto;
-            width: 100%;
-        }
-        .nav {
-            width: 100%;
-        }
-        .footer {
-            width: 100%;
-            margin: 0 auto;
-        }
+    .info {
+      margin: 0 auto;
+      width: 100%;
     }
+    .nav {
+      width: 100%;
+    }
+    .footer {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
 }
